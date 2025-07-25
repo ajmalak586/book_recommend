@@ -8,6 +8,7 @@ A content based book recommendation system built using*python,**Flask**,where us
 
 # Project Structure
 book_recommendation_app/
+
 │
 ├── app.py                # Flask app
 ├── templates/
