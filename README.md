@@ -1,1 +1,1 @@
-# book_recommend
+# book recommendation app
