@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Recommender</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Book Recommender</h1>
+        <form method="post">
+            <input type="text" name="book" placeholder="Enter a book title" required>
+            <button type="submit">Recommend</button>
+        </form>
+
+        {% if recommendations %}
+            <h2>Recommended Books:</h2>
+            <div class="books">
+                {% for book in recommendations %}
+                    <div class="book">
+                        <img src="{{ book.image }}" alt="Cover">
+                        <p><strong>{{ book.title }}</strong><br>{{ book.author }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

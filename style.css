@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.container {
+    padding: 40px;
+}
+form input, form button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+.books {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.book {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+}
+.book img {
+    max-width: 100%;
+    border-radius: 5px;
+}
