@@ -7,16 +7,15 @@ A content based book recommendation system built using*python,**Flask**,where us
 * HTML,CSS
 
 # Project Structure
-book_recommendation_app/
-
+book-recommendation-app/
 │
-├── app.py                # Flask app
+├── app.py                < Flask app
 ├── templates/
-│   └── index.html        # HTML frontend
+│   └── index.html        < HTML frontend
 ├── static/
-│   └── style.css         # CSS styling
-├── books.csv             # Dataset of books
-└── README.md             # Project documentation
+│   └── style.css         < CSS styling
+├── books.csv             < Dataset of books
+└── README.md             < Project documentation
 
 # Note:
 Download the book dataset manually from kaggle:
